@@ -1,0 +1,64 @@
+my-leave-management/
+│
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── css/
+│
+│   ├── components/         # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── InputField.jsx
+│   │   ├── Loader.jsx
+│   │   └── Button.jsx
+│
+│   ├── pages/              # All screens/pages
+│   │   ├── auth/
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
+│   │   ├── admin/
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   ├── ManageEmployees.jsx
+│   │   │   ├── ManageLeaves.jsx
+│   │   │   └── Reports.jsx
+│   │   ├── employee/
+│   │   │   ├── EmployeeDashboard.jsx
+│   │   │   ├── ApplyLeave.jsx
+│   │   │   ├── LeaveStatus.jsx
+│   │   │   └── Profile.jsx
+│   │   └── NotFound.jsx
+│
+│   ├── layout/             # Layout wrappers (Admin/Employee UI)
+│   │   ├── AdminLayout.jsx
+│   │   └── EmployeeLayout.jsx
+│
+│   ├── routes/             # App routes (React Router)
+│   │   └── AppRoutes.jsx
+│
+│   ├── context/            # Context API (auth, user, theme)
+│   │   ├── AuthContext.jsx
+│   │   └── LeaveContext.jsx
+│
+│   ├── hooks/              # Custom hooks
+│   │   ├── useAuth.js
+│   │   └── useFetch.js
+│
+│   ├── services/           # API calls (Axios)
+│   │   ├── authService.js
+│   │   ├── leaveService.js
+│   │   └── employeeService.js
+│
+│   ├── utils/              # Helper functions
+│   │   └── formatDate.js
+│
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .env
+├── package.json
+└── README.md
