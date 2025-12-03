@@ -3,11 +3,7 @@
     margin: 0;
     padding: 0;
 }
-:root
-{
-    --color1:#50ABE7;
-    --color2:aliceblue;
-}
+
 img
 {
     align-self: center;
